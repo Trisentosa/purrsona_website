@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/purrsona_website/static/css/main.467864ac.css",
+    "main.js": "/purrsona_website/static/js/main.53800a34.js",
+    "static/media/cat_b.jpg": "/purrsona_website/static/media/cat_b.81947b25cf94294d276f.jpg",
+    "static/media/cat_c.jpg": "/purrsona_website/static/media/cat_c.9a760af65399aa7eceea.jpg",
+    "static/media/cat_a.jpg": "/purrsona_website/static/media/cat_a.e6c0c494244b79ea8dce.jpg",
+    "static/media/product_1.png": "/purrsona_website/static/media/product_1.c744640b05d42ff9df8a.png",
+    "static/media/bentonite_cat_litter.jpg": "/purrsona_website/static/media/bentonite_cat_litter.0af9134fe863686e6a17.jpg",
+    "static/media/shopee_logo.png": "/purrsona_website/static/media/shopee_logo.4b7154858ba52e3abe6d.png",
+    "static/media/tokopedia_logo.png": "/purrsona_website/static/media/tokopedia_logo.672c8b0fe976b3c6ca36.png",
+    "static/media/purrsona_logo.png": "/purrsona_website/static/media/purrsona_logo.cb4d7139c07d99977af6.png",
+    "index.html": "/purrsona_website/index.html",
+    "main.467864ac.css.map": "/purrsona_website/static/css/main.467864ac.css.map",
+    "main.53800a34.js.map": "/purrsona_website/static/js/main.53800a34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.467864ac.css",
+    "static/js/main.53800a34.js"
+  ]
+}
