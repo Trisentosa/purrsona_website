@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/purrsona_website/static/css/main.467864ac.css",
-    "main.js": "/purrsona_website/static/js/main.ae12117c.js",
+    "main.js": "/purrsona_website/static/js/main.0f2b022b.js",
     "static/media/cat_b.jpg": "/purrsona_website/static/media/cat_b.81947b25cf94294d276f.jpg",
     "static/media/cat_c.jpg": "/purrsona_website/static/media/cat_c.9a760af65399aa7eceea.jpg",
     "static/media/cat_a.jpg": "/purrsona_website/static/media/cat_a.e6c0c494244b79ea8dce.jpg",
@@ -12,10 +12,10 @@
     "static/media/purrsona_logo.png": "/purrsona_website/static/media/purrsona_logo.cb4d7139c07d99977af6.png",
     "index.html": "/purrsona_website/index.html",
     "main.467864ac.css.map": "/purrsona_website/static/css/main.467864ac.css.map",
-    "main.ae12117c.js.map": "/purrsona_website/static/js/main.ae12117c.js.map"
+    "main.0f2b022b.js.map": "/purrsona_website/static/js/main.0f2b022b.js.map"
   },
   "entrypoints": [
     "static/css/main.467864ac.css",
-    "static/js/main.ae12117c.js"
+    "static/js/main.0f2b022b.js"
   ]
 }
