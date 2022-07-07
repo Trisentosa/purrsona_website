@@ -1,0 +1,37 @@
+.footer-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-main {
+  background-color: #faf9f5;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.brand {
+  width: 40px;
+  height: auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+ul {
+  padding-left: 0;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}

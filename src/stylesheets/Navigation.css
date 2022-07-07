@@ -1,0 +1,52 @@
+/*** Nav Styles ***/
+.sticky-nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #f1e3d5;
+  transform: translateY(0px);
+  transition: background-color 0.6s ease;
+  z-index: 10;
+}
+
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  transform: translateY(0px);
+  transition: background-color 0.6s ease;
+  z-index: 10;
+}
+
+/*** Nav Details ***/
+
+#nav-display {
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.nav-text {
+  font-size: clamp(0.5rem, 3vw, 1rem);
+  color: rgb(33, 33, 33);
+  text-decoration: none;
+  border-bottom: rgb(211, 205, 205) 0.2rem solid;
+}
+
+.nav-text:hover {
+  font-size: clamp(0.5rem, 3vw, 1rem);
+  color: black;
+  text-decoration: none;
+  border-bottom: black 0.2rem solid;
+  transition: border 0.5s linear, color 0.5s linear;
+}
+
+.nav-text-margin {
+  margin-right: 10vw;
+}
+
+.logo-img {
+  width: 16vw;
+  height: auto;
+}
