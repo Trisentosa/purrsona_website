@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/purrsona_website/static/css/main.d77fffd0.css",
-    "main.js": "/purrsona_website/static/js/main.b2987256.js",
+    "main.css": "/purrsona_website/static/css/main.7a35ec7c.css",
+    "main.js": "/purrsona_website/static/js/main.85b120e2.js",
     "static/media/cat_b.jpg": "/purrsona_website/static/media/cat_b.81947b25cf94294d276f.jpg",
     "static/media/cat_c.jpg": "/purrsona_website/static/media/cat_c.9a760af65399aa7eceea.jpg",
     "static/media/cat_a.jpg": "/purrsona_website/static/media/cat_a.e6c0c494244b79ea8dce.jpg",
@@ -12,11 +12,11 @@
     "static/media/tokopedia_logo.png": "/purrsona_website/static/media/tokopedia_logo.672c8b0fe976b3c6ca36.png",
     "static/media/purrsona_logo.png": "/purrsona_website/static/media/purrsona_logo.cb4d7139c07d99977af6.png",
     "index.html": "/purrsona_website/index.html",
-    "main.d77fffd0.css.map": "/purrsona_website/static/css/main.d77fffd0.css.map",
-    "main.b2987256.js.map": "/purrsona_website/static/js/main.b2987256.js.map"
+    "main.7a35ec7c.css.map": "/purrsona_website/static/css/main.7a35ec7c.css.map",
+    "main.85b120e2.js.map": "/purrsona_website/static/js/main.85b120e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d77fffd0.css",
-    "static/js/main.b2987256.js"
+    "static/css/main.7a35ec7c.css",
+    "static/js/main.85b120e2.js"
   ]
 }
