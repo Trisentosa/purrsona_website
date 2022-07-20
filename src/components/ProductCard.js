@@ -17,12 +17,12 @@ const ProductCard = ({
             alt="..."
           />
         </Col>
-        <Col md={7}>
+        <Col md={7} className="text-center my-auto">
           <Card.Body>
-            <h5 className="card-title">{product_name}</h5>
-            <p className="card-text">Description:</p>
+            <h4 className="card-title">{product_name}</h4>
+            <h6 className="card-text">Description:</h6>
             <p className="card-text">{product_desc}</p>
-            <button className="panel-btn mb-5 centered-label">
+            <button className="panel-btn my-4 mx-auto">
               <a href={product_link} target="blank" className="panel-text">
                 Buy Now
               </a>

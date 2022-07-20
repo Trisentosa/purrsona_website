@@ -1,23 +1,19 @@
-.footer-layout {
-  display: flex;
-  justify-content: space-around;
+.footer {
+  background-color: #e7c6ff;
+  border-top: #bbd0ff 3px solid;
 }
 
-.footer-main {
-  background-color: #faf9f5;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+.footer-card {
+  background-color: #e7c6ff;
 }
 
 .brand {
-  width: 40px;
+  width: 42px;
+  height: auto;
+}
+
+.brand-small {
+  width: 20px;
   height: auto;
 }
 
@@ -30,8 +26,21 @@
 ul {
   padding-left: 0;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 li {
   list-style: none;
+}
+
+.footer-link {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: black;
 }

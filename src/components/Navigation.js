@@ -6,7 +6,8 @@ import { useMediaQuery } from "react-responsive";
 
 const logo = require("../images/purrsona_logo.png");
 const tokpedLink = "https://www.tokopedia.com/purrsona";
-const shopeeLink = "";
+const shopeeLink =
+  "https://shopee.co.id/pawpal?categoryId=100631&itemId=12147657989";
 const Navigation = ({ navStyle }) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isScreen = useMediaQuery({ query: "(min-width: 769px)" });
@@ -16,7 +17,13 @@ const Navigation = ({ navStyle }) => {
         {isTabletOrMobile && (
           <>
             <Navbar.Brand as={Link} to="/" className="nav-brand">
-              Purrsona
+              <img
+                src={logo}
+                width={164}
+                height={64}
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="main-navbar" />
           </>
@@ -43,7 +50,13 @@ const Navigation = ({ navStyle }) => {
         {isScreen && (
           <>
             <Navbar.Brand as={Link} to="/" className="nav-brand">
-              Purrsona
+              <img
+                src={logo}
+                width={164}
+                height={64}
+                className="d-inline-block align-top"
+                alt="Purrsona logo"
+              />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="main-navbar" />
           </>

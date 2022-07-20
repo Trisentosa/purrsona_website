@@ -1,6 +1,8 @@
 import "../stylesheets/PageComponents.css";
 import { Container } from "react-bootstrap";
 import { useEffect } from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = ({ changeNavBg }) => {
   useEffect(() => {
@@ -8,18 +10,31 @@ const Contact = ({ changeNavBg }) => {
   }, [changeNavBg]);
   return (
     <Container className="panel-container">
-      <div className="text-center">
-        <span className="panel-header">Contact Us</span>
+      <div className="home-card-margin">
+        <div className="text-center">
+          <span className="panel-header">Contact Us</span>
+        </div>
+
+        <div className="contact-box">
+          <a
+            href="https://wa.me/6287758669597"
+            className="contact-link"
+            target="blank"
+          >
+            <FaWhatsapp className="contact-icon" /> +62 877-5866-9597
+          </a>
+        </div>
+
+        <div className="contact-box">
+          <a
+            href="mailto:triatlas.altana@gmail.com"
+            className="contact-link"
+            target="blank"
+          >
+            <AiOutlineMail className="contact-icon" /> triatlas.altana@gmail.com
+          </a>
+        </div>
       </div>
-      <p className="my-4 mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, enim
-        similique cum natus totam ut voluptatum et harum doloribus quisquam
-        aperiam assumenda. Reiciendis tempore natus placeat ut iure, odio
-        consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Ipsum, placeat veniam, magni, nisi mollitia quo libero numquam
-        voluptas accusantium pariatur soluta ad veritatis! Quam, atque
-        laudantium nisi laborum deserunt eligendi.
-      </p>
     </Container>
   );
 };

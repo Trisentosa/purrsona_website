@@ -1,6 +1,6 @@
 /*** Nav Styles ***/
 .sticky-nav {
-  background-color: #f6ddc5;
+  background-color: #c8b6ff;
   transition: background-color 0.4s linear, padding 0.4s linear;
   z-index: 10;
   padding-top: 3vh;
@@ -17,7 +17,7 @@
 /* bootstrap medium */
 @media only screen and (max-width: 768px) {
   .fixed-nav {
-    background-color: #f5e3d3;
+    background-color: #c8b6ff;
     transition: background-color 0.4s linear, padding 0.4s linear;
     z-index: 10;
     padding-top: 2vh;
@@ -36,9 +36,10 @@
 }
 
 .nav-txt {
-  font-size: clamp(0.9rem, 1.1rem, 1.3rem);
+  font-size: clamp(1.1rem, 1.3rem, 1.5rem);
 }
 
 .nav-brand {
-  font-size: clamp(1.3rem, 1.5rem, 1.8rem);
+  font-weight: 500;
+  font-size: clamp(1.4rem, 1.6rem, 1.9rem);
 }

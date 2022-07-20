@@ -30,7 +30,12 @@
 .panel-text {
   font-size: 1.2rem;
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: black;
+}
+
+.panel-text:hover {
+  text-decoration: none;
+  color: black;
 }
 
 /* Card and Icons in home page */
@@ -42,6 +47,7 @@
 .circle-icon {
   border-radius: 50%;
   background-color: rgb(241, 203, 99);
+  padding: 10px;
   color: rgb(252, 246, 196);
   font-size: 4rem;
 }
@@ -74,15 +80,21 @@
 }
 
 .review-carousel {
-  background-color: rgb(231, 195, 97);
+  background-color: #9ba9ff;
   color: white;
-  height: 300px;
+  height: 275px;
   border-radius: 15px;
+  box-shadow: 10px 10px 8px #252731;
 }
 
 .review-div-text {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 75px;
+}
+
+.star {
+  color: rgb(255, 238, 0);
+  font-size: 2rem;
 }
 
 /* bootstrap medium */
@@ -100,4 +112,24 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
+}
+
+/* Contacts */
+.contact-link {
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+}
+
+.contact-box {
+  border: gray 2px solid;
+  padding: 3rem 0;
+  border-radius: 15px;
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+  text-align: center;
 }
