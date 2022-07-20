@@ -1,6 +1,5 @@
 import { Card, Row, Col } from "react-bootstrap";
-import "../stylesheets/HomePanel.css";
-import "../stylesheets/waves.css";
+import "../stylesheets/PageComponents.css";
 
 const ProductCard = ({
   product_img,

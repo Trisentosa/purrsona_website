@@ -9,12 +9,12 @@ import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Product from "./pages/Product";
+import Contact from "./pages/Contact";
 import ScrollToTop from "./components/Helper/ScrollToTop";
 
 function App() {
   const [navSetting, setNavSetting] = useState("fixed-nav");
   const changeNavBg = () => {
-    console.log(window.location.pathname);
     window.scrollY <= 150 &&
     (window.location.pathname === "/" ||
       window.location.pathname === "/purrsona_website/")
@@ -41,6 +41,10 @@ function App() {
             <Route
               path="/product"
               element={<Product changeNavBg={changeNavBg} />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact changeNavBg={changeNavBg} />}
             />
             <Route path="/*" element={<Home changeNavBg={changeNavBg} />} />
           </Routes>

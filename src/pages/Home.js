@@ -1,11 +1,12 @@
-import "../stylesheets/HomePanel.css";
-import "../stylesheets/waves.css";
+import "../stylesheets/PageComponents.css";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
 import { Container, Card, Row, Col } from "react-bootstrap";
 import { useEffect } from "react";
+
+const product_display = require("../images/product_display.jpg");
 
 const HomePanel = ({ changeNavBg }) => {
   useEffect(() => {
@@ -15,53 +16,9 @@ const HomePanel = ({ changeNavBg }) => {
     <div>
       <Banner />
       <Container className="mt-5">
-        {/* <p className="my-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, enim
-          similique cum natus totam ut voluptatum et harum doloribus quisquam
-          aperiam assumenda. Reiciendis tempore natus placeat ut iure, odio
-          consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, placeat veniam, magni, nisi mollitia quo libero numquam
-          voluptas accusantium pariatur soluta ad veritatis! Quam, atque
-          laudantium nisi laborum deserunt eligendi.
-        </p>
-        <button className="panel-btn mb-5 centered-label">
-          <Link to="/about" className="panel-text">
-            Learn More <IoIosArrowDroprightCircle className="icon" />
-          </Link>
-        </button>
-      </Container>
-      <Container className="mb-5">
-        <span className="panel-header mb-5">Products</span>
-        <p className="my-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, enim
-          similique cum natus totam ut voluptatum et harum doloribus quisquam
-          aperiam assumenda. Reiciendis tempore natus placeat ut iure, odio
-          consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, placeat veniam, magni, nisi mollitia quo libero numquam
-          voluptas accusantium pariatur soluta ad veritatis! Quam, atque
-          laudantium nisi laborum deserunt eligendi.
-        </p>
-        <button className="panel-btn mb-5 centered-label">
-          <Link to="/product" className="panel-text">
-            View All Products <IoIosArrowDroprightCircle className="icon" />
-          </Link>
-        </button>
-        <span id="contact" className="panel-header mb-5">
-          Contact Us
-        </span>
-        <p className="my-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, enim
-          similique cum natus totam ut voluptatum et harum doloribus quisquam
-          aperiam assumenda. Reiciendis tempore natus placeat ut iure, odio
-          consequuntur. lorem Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, placeat veniam, magni, nisi mollitia quo libero numquam
-          voluptas accusantium pariatur soluta ad veritatis! Quam, atque
-          laudantium nisi laborum deserunt eligendi.
-        </p> */}
-
         <Card className="mx-auto borderless-card home-card-margin">
           <Row className="row g-4">
-            <Col md={5}>
+            <Col md={5} className="my-auto">
               <Card.Body>
                 <div className="text-center mb-4">
                   <span className="panel-header">Purrsona</span>
@@ -75,7 +32,7 @@ const HomePanel = ({ changeNavBg }) => {
                   eius corporis voluptates in id tenetur repudiandae ex, soluta
                   nobis? Optio fuga quos sint sapiente possimus alias odit.
                 </p>
-                <button className="panel-btn my-5 centered-label mx-auto">
+                <button className="panel-btn mt-5 centered-label mx-auto">
                   <Link to="/about" className="panel-text">
                     Learn More <IoIosArrowDroprightCircle className="icon" />
                   </Link>
@@ -87,6 +44,7 @@ const HomePanel = ({ changeNavBg }) => {
                 src="https://www.youtube.com/embed/ALja3wAdQsM"
                 allowFullScreen
                 className="iframe-yt"
+                title="promotion-video"
               ></iframe>
             </Col>
           </Row>
@@ -123,13 +81,13 @@ const HomePanel = ({ changeNavBg }) => {
         <Card className="mx-auto borderless-card home-card-margin">
           <Row className="row g-4">
             <Col md={6}>
-              <iframe
-                src="https://www.youtube.com/embed/ALja3wAdQsM"
-                allowFullScreen
-                className="iframe-yt"
-              ></iframe>
+              <img
+                src={product_display}
+                className="img-fluid"
+                alt="product display"
+              />
             </Col>
-            <Col md={6}>
+            <Col md={6} className="my-auto">
               <Card.Body>
                 <div className="text-center mb-4">
                   <span className="panel-header">Cat Litter Products</span>
@@ -143,7 +101,7 @@ const HomePanel = ({ changeNavBg }) => {
                   eius corporis voluptates in id tenetur repudiandae ex, soluta
                   nobis? Optio fuga quos sint sapiente possimus alias odit.
                 </p>
-                <button className="panel-btn centered-label mx-auto my-5">
+                <button className="panel-btn centered-label mx-auto mt-5">
                   <Link to="/product" className="panel-text">
                     View All Products{" "}
                     <IoIosArrowDroprightCircle className="icon" />

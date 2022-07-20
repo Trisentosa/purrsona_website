@@ -1,4 +1,4 @@
-import "../stylesheets/HomePanel.css";
+import "../stylesheets/PageComponents.css";
 import { Container } from "react-bootstrap";
 import "../stylesheets/ProductPanel.css";
 import ProductCard from "../components/ProductCard";

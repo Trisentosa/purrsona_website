@@ -21,18 +21,13 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="link-text">
-              Community
-            </Link>
-          </li>
-          <li>
             <Link to="/product" className="link-text">
               Products
             </Link>
           </li>
           <li>
-            <Link to="" className="link-text">
-              FAQs
+            <Link to="/contact" className="link-text">
+              Contact
             </Link>
           </li>
         </div>

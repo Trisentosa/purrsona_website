@@ -54,7 +54,7 @@ const Navigation = ({ navStyle }) => {
             <Nav.Link as={Link} to="/about" className="me-4 nav-txt">
               About
             </Nav.Link>
-            <Nav.Link as={HashLink} to="/#contact" className="me-4 nav-txt">
+            <Nav.Link as={HashLink} to="/contact" className="me-4 nav-txt">
               Contact Us
             </Nav.Link>
           </Nav>
