@@ -1,5 +1,6 @@
 import { Card, Row, Col } from "react-bootstrap";
 import "../stylesheets/HomePanel.css";
+import "../stylesheets/waves.css";
 
 const ProductCard = ({
   product_img,
@@ -8,7 +9,7 @@ const ProductCard = ({
   product_link,
 }) => {
   return (
-    <Card className="mt-5 mb-3 mx-auto item-display">
+    <Card className="mt-5 mb-3 item-display mx-auto">
       <Row className="row g-0">
         <Col md={5}>
           <img

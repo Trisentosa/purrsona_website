@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const About = ({ changeNavBg }) => {
   useEffect(() => {
     changeNavBg();
-  }, []);
+  }, [changeNavBg]);
   return (
     <Container className="panel-container">
       <span className="panel-header"> About</span>

@@ -12,10 +12,12 @@ import Product from "./pages/Product";
 import ScrollToTop from "./components/Helper/ScrollToTop";
 
 function App() {
-  const [navSetting, setNavSetting] = useState("sticky-nav");
+  const [navSetting, setNavSetting] = useState("fixed-nav");
   const changeNavBg = () => {
     console.log(window.location.pathname);
-    window.scrollY <= 150 && window.location.pathname == "/"
+    window.scrollY <= 150 &&
+    (window.location.pathname === "/" ||
+      window.location.pathname === "/purrsona_website/")
       ? setNavSetting("fixed-nav")
       : setNavSetting("sticky-nav");
   };
@@ -24,7 +26,7 @@ function App() {
     return () => {
       window.removeEventListener("scroll", changeNavBg);
     };
-  }, [window.location.pathname]);
+  }, []);
   return (
     <div className="App" onScroll={changeNavBg}>
       <BrowserRouter>
@@ -40,6 +42,7 @@ function App() {
               path="/product"
               element={<Product changeNavBg={changeNavBg} />}
             />
+            <Route path="/*" element={<Home changeNavBg={changeNavBg} />} />
           </Routes>
           <Footer />
         </ScrollToTop>

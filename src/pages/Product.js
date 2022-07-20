@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import "../stylesheets/ProductPanel.css";
 import ProductCard from "../components/ProductCard";
 import { useEffect } from "react";
+import { MdPets } from "react-icons/md";
 
 // Products Info
 const tofuCatLitterImg = require("../images/product_1.png");
@@ -20,16 +21,23 @@ const bentoniteCatLitterLink =
 const Product = ({ changeNavBg }) => {
   useEffect(() => {
     changeNavBg();
-  }, []);
+  }, [changeNavBg]);
   return (
     <Container className="panel-container">
-      <span className="panel-header">Products</span>
+      <div className="text-center">
+        <span className="panel-header">
+          <MdPets className="me-2 icon-paw" />
+          Products
+          <MdPets className="ms-2 icon-paw" />
+        </span>
+      </div>
       <ProductCard
         product_img={tofuCatLitterImg}
         product_name={tofuCatLitterName}
         product_desc={tofuCatLitterDesc}
         product_link={tofuCatLitterLink}
       />
+
       <ProductCard
         product_img={bentoniteCatLitterImg}
         product_name={bentoniteCatLitterName}
